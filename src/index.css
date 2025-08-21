@@ -1,0 +1,11 @@
+:root {
+--main-text-color:#373737;
+--main-icon-color:#555555;
+--shadow-color:#cacaca;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
