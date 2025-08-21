@@ -1,7 +1,13 @@
-import { faRotateRight, faInbox, faUsers, faTag} from "@fortawesome/free-solid-svg-icons";
+import {
+  faRotateRight,
+  faInbox,
+  faUsers,
+  faTag,
+} from "@fortawesome/free-solid-svg-icons";
 import styles from "./mainContainer.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import ListItem from "../list-item/ListItem";
+import EMails from "../eMails/EMails";
 
 const MainContainer = () => {
   return (
@@ -27,9 +33,8 @@ const MainContainer = () => {
           classes={`${styles.message_links} ${styles.active}`}
         />
       </div>
-      <div>
-        
-      </div>
+
+      <EMails />
     </div>
   );
 };
